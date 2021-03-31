@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Lottie from 'react-lottie';
 import animationData from './lotties/9759-halloween-flying-ghost-loading.json';
