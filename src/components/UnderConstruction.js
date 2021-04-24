@@ -43,7 +43,9 @@ const underConstruction = () => {
 
     </div>
     <div className="w-full flex items-center justify-center ">
+      <a href="https://www.juanjosebernal.work//">
         <img src={Powered} alt="Powered" className="-mt-52"/>
+      </a>
     </div>
     </>
   );
