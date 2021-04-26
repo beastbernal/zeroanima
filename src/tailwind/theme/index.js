@@ -11,6 +11,15 @@ module.exports = {
   },
   letterSpacing: {
     widest: '0.8em',
-  }
-
+  },
+  maxHeight: {
+    '80-full': '80vh',
+    '85-full': '85vh',
+    '90-full': '90vh',
+  },
+  minHeight: {
+    '80-full': '80vh',
+    '85-full': '85vh',
+    '90-full': '90vh',
+  },
 };

@@ -3,7 +3,7 @@ import UnderConstruction from './components/UnderConstruction';
 
 function App() {
   return (
-    <div className="h-full">
+    <div>
       <UnderConstruction />
     </div>
   );
