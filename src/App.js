@@ -1,11 +1,7 @@
-import './App.css';
-import UnderConstruction from './components/UnderConstruction';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Home from './components/Home';
+import './App.css'
+import UnderConstruction from './components/UnderConstruction'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -37,8 +33,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-    
-  );
+  )
 }
 
-export default App;
+export default App

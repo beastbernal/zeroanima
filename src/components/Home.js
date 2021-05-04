@@ -12,7 +12,7 @@ const Home = () => {
       <div className="w-8/12 lg:10/12 flex flex-col">
         <Navbar />
         <Banner />
-        <Content/>
+        <Content />
       </div>
       <div className="w-4/12 lg:2/12 border-l-2 border-b-2 border-primary flex flex-col">
         <div className="h-80 flex justify-center static">

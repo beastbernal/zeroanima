@@ -8,6 +8,7 @@ import Ello from '../assets/svg/Ello.svg'
 import IG from '../assets/svg/IG.svg'
 import LI from '../assets/svg/LI.svg'
 import Powered from '../assets/svg/Powered.svg'
+import { Link } from 'react-router-dom'
 
 const underConstruction = () => {
   return (
@@ -39,7 +40,7 @@ const underConstruction = () => {
       <div className="w-full flex items-center justify-center ">
         <p className="text-3xl text-secondary -mt-28 tracking-widest">
           SINCE 198
-          <a href="/home">5</a>
+          <Link exact to="/home">5</Link>
         </p>
       </div>
       <div className="w-full flex items-center justify-center ">
