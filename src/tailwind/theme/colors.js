@@ -18,6 +18,9 @@ module.exports = {
     disable: "#CACACA",
     selected: "#4DBEF1",
 
+    deep: "#E5E5E5",
+
+    "electric-green": "#87F698",
 
   },
 };

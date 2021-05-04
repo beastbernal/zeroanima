@@ -9,6 +9,9 @@ module.exports = {
   borderColor: { 
     ...colors.colors,
   },
+  gradientColorStops: {
+    ...colors.colors
+  },
   letterSpacing: {
     widest: '0.8em',
   },
@@ -22,4 +25,11 @@ module.exports = {
     '85-full': '85vh',
     '90-full': '90vh',
   },
+  backgroundImage: {
+    'hero-pattern': "url('./assets/images/Pattern.png')",
+  },
+  fontFamily: {
+    'abril': ['Abril+Fatface', 'system-ui'],
+    'merri': ['Merriweather', 'system-ui'],
+  }
 };
